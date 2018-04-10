@@ -26,9 +26,9 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use((req, res, next) => {
-   res.render('maintenance.hbs');
-});
+// app.use((req, res, next) => {
+//    res.render('maintenance.hbs');
+// });
 
 app.use(express.static(__dirname + '/public'));
 
@@ -37,7 +37,14 @@ app.get('/', (req, res) => {
         pageTitle: 'Home Page',
         welcomeMessage: 'Welcome to my website'
     });
-    console.log("Index Page served")
+    console.log("Index Page served");
+});
+
+app.get('/projects', (req, res) => {
+   res.render('projects.hbs', {
+       pageTitle: 'Projects'
+   });
+   console.log("Project Page served");
 });
 
 app.get('/about', (req, res) => {
