@@ -2,6 +2,11 @@ body {
     background-color: #ed5353;
     color: #ffffff;
     font-family: "DIN Pro Cond", "Ubuntu Condensed", "Roboto Condensed";
+    font-size: 20px;
+    border-color: #ffffff;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
 }
 
 a {
@@ -12,4 +17,27 @@ a {
 a:hover {
     border-color: #ff8c82;
     color: #ff8c82
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu p {
+    border-color: #ffffff;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding: 2px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer a {
+    border-color: #ffffff;
+    border-bottom-style: solid;
+    border-width: 1px;
 }
