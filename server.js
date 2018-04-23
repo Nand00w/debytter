@@ -10,9 +10,9 @@ hbs.registerPartials(__dirname + '/views/partials');
 hbs.registerHelper('getCurrentYear', () => {
     return new Date().getFullYear()
 });
-hbs.registerHelper('screamIt', (text) => {
-    return text.toUpperCase();
-});
+// hbs.registerHelper('screamIt', (text) => {
+//     return text.toUpperCase();
+// });
 
 app.use((req, res, next) => {
     var now = new Date().toString();
@@ -35,7 +35,7 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
     res.render('home.hbs', {
         pageTitle: 'Home Page',
-        welcomeMessage: 'Welcome to my website'
+        welcomeMessage: 'Welcome to DeBytter!'
     });
     console.log("Index Page served");
 });

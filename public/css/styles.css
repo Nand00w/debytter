@@ -1,0 +1,15 @@
+body {
+    background-color: #ed5353;
+    color: #ffffff;
+    font-family: "DIN Pro Cond", "Ubuntu Condensed", "Roboto Condensed";
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    border-color: #ff8c82;
+    color: #ff8c82
+}
