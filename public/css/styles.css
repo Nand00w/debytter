@@ -1,7 +1,7 @@
 body {
     background-color: #ed5353;
     color: #ffffff;
-    font-family: "DIN Pro Cond", "Ubuntu Condensed", "Roboto Condensed";
+    font-family: 'DIN Pro Cond', "Ubuntu Condensed", "Roboto Condensed";
     font-size: 20px;
     border-color: #ffffff;
     border-top-style: solid;
@@ -34,6 +34,10 @@ a:hover {
 
 #footer {
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
 }
 
 #footer a {
