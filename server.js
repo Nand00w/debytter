@@ -26,6 +26,7 @@ app.use((req, res, next) => {
     next();
 });
 
+//Use when site is in maintenance
 // app.use((req, res, next) => {
 //    res.render('maintenance.hbs');
 // });

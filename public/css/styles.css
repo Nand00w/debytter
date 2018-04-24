@@ -1,5 +1,5 @@
 @font-face {
-    font-family: dinWeb;
+    font-family: DINWeb;
     src: url("/fonts/DINPro-Cond.otf");
 
 }
@@ -7,7 +7,7 @@
 body {
     background-color: #ed5353;
     color: #ffffff;
-    font-family: dinWeb, "Ubuntu Condensed", "Roboto Condensed";
+    font-family: DINWeb, "Ubuntu Condensed", "Roboto Condensed", "serif";
     font-size: 20px;
     border-color: #ffffff;
     border-top-style: solid;
@@ -38,17 +38,17 @@ a:hover {
     display: inline-block;
 }
 
-#footer {
+footer {
     text-align: center;
     position: fixed;
-    left: 0;
+    /*position: relative;*/
     bottom: 10px;
-    width: 100%;
+    width: 99%;
     border-bottom-style: solid;
     border-width: 1px;
 }
 
-#footer a {
+footer a {
     border-color: #ffffff;
     border-bottom-style: solid;
     border-width: 1px;
